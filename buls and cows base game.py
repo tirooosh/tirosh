@@ -56,10 +56,10 @@ def compair():  # calculating the result of the colors the user inputed
         win = True
     if not win:
         for i in range(4):
-            for j in range(4):
-                if chosen_colors[i] == pc_chosen_colors[i]:
+            if chosen_colors[i] == pc_chosen_colors[i]:
                     black += 1
-                elif chosen_colors[i] == pc_chosen_colors[j] and i != j:
+            for j in range(4):
+                if chosen_colors[i] == pc_chosen_colors[j] and i != j:
                     white += 1
 
         last_grades.append("white= "+str(white)+" black= "+str(black))
