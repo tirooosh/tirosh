@@ -1,4 +1,4 @@
-# tirosh tayouri 1/26/22
+# tirosh tayouri
 # bulls and cows
 
 import random
